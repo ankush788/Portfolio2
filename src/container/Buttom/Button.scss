@@ -1,0 +1,28 @@
+.resume-button {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  width: min-content;
+  padding: 5px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  img {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  P {
+    padding-left: 2px;
+    color: white;
+  }
+
+  &:hover {
+    background-color: white;
+    p {
+      color: #313bac;
+    }
+    border: #313bac 0.8px solid;
+  }
+}

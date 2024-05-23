@@ -1,0 +1,19 @@
+/* WordAnimation.css */
+
+.word-animation {
+  font-family: Arial, sans-serif; /* Choose your preferred font-family */
+  font-size: 24px; /* Adjust the font size as needed */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.word-animation::after {
+  content: "|"; /* Cursor effect, you can customize it */
+  animation: blinkCursor 0.8s infinite;
+}
+
+@keyframes blinkCursor {
+  50% {
+    opacity: 0;
+  }
+}
